@@ -32,3 +32,25 @@ header-includes:
 output: pdf_document
 ---
 
+We will divide the project into two parts.
+
+# Filter List
+This half of the team will be responsible for finding and combining filter lists 
+in the most efficient way they can come up with. The following members will be 
+working on this half of the project:
+
++ Andrew
++ Trey
+
+# Extension
+This half of the team will be working on the extension itself, including a 
+simple user interface and implementing the filter list to block ads. The following 
+members will be working on this half of the project: 
+
++ Brandon
++ Chase
+
+# Collaboration
+As a team, we will use a shared, private GitHub repository with several branches 
+to share and maintain our codebase. We plan on having weekly or biweekly meetings 
+to check in on our project's progress and see if either team needs extra assistance.
