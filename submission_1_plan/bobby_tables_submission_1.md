@@ -46,7 +46,7 @@ which ones to use will be a trivial task. The following members will be working 
 # Extension
 This half of the team will be working on the Firefox extension itself, including a 
 simple user interface and implementing the filter list to block ads. Firefox was chosen 
-because of it's Free and Open Source nature, as well as the fact that it more closely follows 
+because of its Free and Open Source nature, as well as the fact that it more closely follows 
 the proposed W3 Standards for browser extensions, while Chrome diverges from them often. 
 JavaScript will be the language of choice, with HTML/CSS for the simple front-end. 
 The following members will be working on this half of the project: 
