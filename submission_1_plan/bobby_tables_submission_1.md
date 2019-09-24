@@ -37,7 +37,7 @@ We will divide the project into two parts.
 # Filter List
 This half of the team will be responsible for finding and combining filter lists 
 in the most efficient way they can come up with. They have not currently decided on what 
-filter lists to use, but they are confident that finding the filter lists and decided on 
+filter lists to use, but they are confident that finding the filter lists and deciding on 
 which ones to use will be a trivial task. The following members will be working on this half of the project:
 
 + Andrew
