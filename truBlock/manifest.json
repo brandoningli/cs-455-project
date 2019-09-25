@@ -9,14 +9,14 @@
         "96": "icons/icon96.png"
     },
 
-    "content_scripts": [{
-        "matches": ["*://*/*"],
-        "js": ["trublock.js"]
-    }],
+    "background": {
+        "scripts": ["trublock.js"]
+    },
 
     "permissions": [
-        "*://*/*",
-        "webRequestBlocking"
+        "webRequestBlocking",
+        "http://*/*",
+        "https://*/*"
     ]
 
 }
