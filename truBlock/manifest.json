@@ -1,0 +1,22 @@
+{
+
+    "description": "Attempts to block advertisements using a master filter list.",
+    "manifest_version": 2,
+    "name": "truBlock",
+    "version": "1.0",
+    "icons": {
+        "48": "icons/icon.png",
+        "96": "icons/icon96.png"
+    },
+
+    "content_scripts": [{
+        "matches": ["*://*/*"],
+        "js": ["trublock.js"]
+    }],
+
+    "permissions": [
+        "*://*/*",
+        "webRequestBlocking"
+    ]
+
+}
