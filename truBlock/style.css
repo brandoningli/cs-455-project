@@ -1,0 +1,84 @@
+/* Truman Official Color Palette (and Friends):
+        Purple: #510b76;
+        Dark Purple: #430b61;
+        Darker Purple: #36084f;
+				White: #ffffff;
+        Gold: #8e774d;
+        Light Gold: #bda06c;
+        */
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Inconsolata|Playfair+Display&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+html {
+    padding-bottom: 30px;
+}
+
+body {
+    font-family: Abel, sans-serif;
+    font-size: 14pt;
+    margin: 15px;
+    background: #510b76;
+    background: linear-gradient(to right, #36084f, #510b76, #36084f);
+    background-size: cover;
+    color: white;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display", serif;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.stopped {
+    color: red;
+}
+
+.running {
+    color: greenyellow;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #bda06c;
+    padding: 5px;
+    margin-bottom: 15px;
+    background: #8e774d;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    transition: background-color 0.5s, text-decoration 0.5s;
+}
+
+.button:hover {
+    text-decoration: underline;
+    background-color: #bda06c;
+}
+
+#attr {
+    font-size: medium;
+}
+
+#status {
+    margin-bottom: 10px;
+}
