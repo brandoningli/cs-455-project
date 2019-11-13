@@ -21,3 +21,15 @@ Read the papers provided to you in this announcement, research the issues with a
 Points: 100
 
 Deadline: End of day, September 30, 2019.
+
+## Final Submission
+
+In final phase of the project your team would work towards developing a prototype for blocking adwares (malicious/non-malicious) based on the information and methodology you have provided in the Phase-1. Your prototype should be a working tool that would block the ads based on the approach you have decided is the best. This submission would have two parts: Report + Presentation.
+
+Report: Submit a project report (one per team) explaining your tool along with the documentation for the source code and its step-by-step deployment should I try to install it on my computer. Explain each team member's contribution as well. This project does have a learning curve, so feel free to include your learning experience, lessons learned, problems faced and adopted solutions. Points: 200
+
+Presentation: 15 mins for each team, explain your tool in brief, lessons learned, problems faced and adopted solutions. Points: 100
+
+Deadline: End of day, December 1, 2019.
+
+Presentation schedule would be posted soon on the blackboard.
