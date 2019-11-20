@@ -8,12 +8,13 @@ function toggleEnabled() {
     enabled = !enabled;
 }
 
-/* BLOCKING CODE GOES HERE */
-I think this is where the filter list is suppose to go
-var pattern = "https://mdn.mozillademos.org/*";
+// This will eventually be our filter list array
+var pattern = "*://*.youtube.com/*";
 
 browser.webRequest.onBeforeRequest.addListener(
-  //log redirect or modify request headers
-  {urls:[pattern]},
-  ["blocking"]
+    function(details) {
+        if (enabled) {
+            return { cancel: true };
+        }
+    }, { urls: [pattern] }, ["blocking"]
 );
