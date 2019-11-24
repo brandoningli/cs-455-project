@@ -8,4 +8,13 @@ function toggleEnabled() {
     enabled = !enabled;
 }
 
-/* BLOCKING CODE GOES HERE */
+// This will eventually be our filter list array
+var pattern = "*://*.youtube.com/*";
+
+browser.webRequest.onBeforeRequest.addListener(
+    function(details) {
+        if (enabled) {
+            return { cancel: true };
+        }
+    }, { urls: [pattern] }, ["blocking"]
+);
