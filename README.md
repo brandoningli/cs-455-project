@@ -1,7 +1,16 @@
 # cs-455-project
 A class project for Truman's CS 455 (Computer Security Fundamentals) class, Fall 2019.
 
+This is a Firefox extension that attempts to block advertisements using a filter list.
 
+# Installation Instructions
+1. [Download the latest release.](https://github.com/brandoningli/cs-455-project/releases)
+2. Open firefox, click on the Hamburger menu, and select Add-ons.
+3. If not on the Extensions page, click on Extensions in the left menu.
+4. Click the gear icon, select Install Add-on From File, and select the .xpi file you downloaded earlier.
+5. Grant permissions and Add. This extension needs the view data on all sites in order to trap the network requests from advertisements. We do not log any traffic.
+
+# Project Description
 
 In this project, your team would be working to counter [malvertising](https://en.wikipedia.org/wiki/Malvertising ). Malvertising refers to injecting malware using online advertisements.
 
