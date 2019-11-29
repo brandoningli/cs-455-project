@@ -10,7 +10,7 @@
     },
 
     "background": {
-        "scripts": ["trublock.js"]
+        "scripts": ["MasterListGamma.js", "trublock.js"]
     },
 
     "permissions": [
