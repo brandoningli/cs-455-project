@@ -3,7 +3,7 @@
     "description": "Attempts to block advertisements using a master filter list.",
     "manifest_version": 2,
     "name": "truBlock",
-    "version": "1.0",
+    "version": "1.0.1",
     "icons": {
         "48": "icons/icon.png",
         "96": "icons/icon96.png"
@@ -24,6 +24,6 @@
         "default_popup": "popup.html"
     },
 
-    "content_security_policy": "script-src 'self' https://raw.githubusercontent.com; object-src 'self'"
+    "content_security_policy": "script-src 'self' https://brandoningli.github.io; object-src 'self'"
 
 }
